@@ -40,8 +40,8 @@ variable "sg_ingress_rules" {
 
 variable "instances" {
   default = {
-    MongoDB   = "t2.medium"
-    MySQL     = "t2.medium"
+    MongoDB   = "t3.medium"
+    MySQL     = "t3.medium"
     Redis     = "t2.micro"
     RabbitMQ  = "t2.micro"
     Catalogue = "t2.micro"
